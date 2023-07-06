@@ -1,0 +1,15 @@
+1. Dataset Preparation: Preprocess and prepare our dataset for machine learning. This may involve handling missing values, encoding categorical     		     variables(like string to numeric), and splitting the data into training and testing sets.
+
+2. Feature Selection/Engineering: Analyze the dataset and select relevant features that are likely to contribute to the intern selection.     	                       Define the feature columns and target variable
+
+3. Label Definition: Define the target label or outcome variable for our machine learning model. It could be a binary label indicating whether 	          an intern is suitable or not, or it could be a multi-class label indicating different levels of priority.
+
+4. Model Selection: Choose an appropriate machine learning algorithm based on our problem type (classification in this case). Some commonly 		used algorithms for classification tasks include logistic regression, decision trees, random forests, support vector 			machines (SVM), and gradient boosting models.
+
+5. Model Training: Train the selected machine learning model using our training dataset. The model will learn patterns and relationships 		        between the features and the target label.
+
+6. Model Evaluation: Evaluate the performance of the trained model using our testing dataset. Common evaluation metrics for classification 		  tasks include accuracy, precision, recall, and F1-score. Adjust the model or experiment with different algorithms if 		 	  the performance is not satisfactory.
+
+7. Prediction and Intern Selection: Once we have a trained and validated model, we can use it to predict the suitability of interns from new, 				unseen data. The model will assign a probability or class label indicating the intern's suitability based on  		                the input features.
+
+Note: It's important to note that implementing a machine learning approach requires labeled data, feature selection, and appropriate model selection. Additionally, it may involve more complex preprocessing, such as handling imbalanced classes or performing hyperparameter tuning to optimize the model's performance. Keep in mind that the suitability of machine learning for our project depends on the availability and quality of labelled data, the complexity of the problem.

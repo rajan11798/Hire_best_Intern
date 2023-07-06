@@ -1,0 +1,19 @@
+ Following is a rule-based algorithm that uses predefined weights and scoring criteria to rank and select the best intern based on the given dataset and conditions:
+
+1. Load the dataset: Read the dataset from the Excel file using a suitable library such as Pandas or Openpyxl.
+
+2. Filter available interns: Remove the rows where the availability for the internship is marked as "no" from the dataset.
+
+3. Define a scoring system: Assign weights to different factors based on their importance in the hiring decision. For example, we can assign higher weights to essential skills and academic performance compared to other skills or degree qualifications.
+
+4. Normalize data: Normalize the data in the essential skills columns and performance columns if required. This step is necessary to ensure that the different columns are on the same scale and can be compared accurately.
+
+5. Calculate scores: For each intern, calculate a score based on the defined weights and normalized values. we can use a weighted sum or any other appropriate method to calculate the score.
+
+6. Rank the interns: Rank the interns based on their scores in descending order. This ranking will provide an initial ordering of the interns from the best to the least qualified.
+
+7. Apply additional filters: Consider applying additional filters based on specific requirements or constraints, such as a minimum qualification threshold, or based on the Degree, based on passing year to further refine the list of candidates.
+
+8. Select the best intern: Based on the rankings and any additional filters, select the top-ranked intern as the best candidate for the internship position.
+
+9. Optional: If you have additional criteria or information that could contribute to the hiring decision, you can include them in the algorithm by adjusting the weights or adding extra steps.
